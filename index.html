@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع التعلم للاطفال</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+
+<body class="color1">
+<script>
+  const audio1 = new Audio();
+  const audio2 = new Audio();
+  const audio3 = new Audio();
+  const audio4 = new Audio();
+  const audio5 = new Audio();
+  const audio6 = new Audio();
+
+  audio1.src = "lion-sound.mp3";
+  audio2.src = "cat-sound.mp3";
+  audio3.src = "dog-sound.mp3";
+  audio4.src = "tiger-sound.mp3";
+  audio5.src = "sheep-sound.mp3";
+  audio6.src = "camel-sound.mp3";
+  
+</script>
+
+  <div id="container">
+    <div class="box">
+      <h1>الحيوانات</h1>
+      <div class="cards">
+        <article class="card" onclick="audio1.play();" >
+          <a href="#" >
+            <figure class="card-thumb">
+              <img src="lion.jpg" alt="angular">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">الأسد</h2>
+              <p class="card-excerpt">الاسد حيوان مفترس ياكل اللحوم يعيش بالغابة</p>
+            </div>
+          </a>
+        </article>
+        <article class="card" onclick="audio2.play();">
+          <a href="#">
+            <figure class="card-thumb">
+              <img src="cat.png">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">القط</h2>
+              <p class="card-excerpt">حيوان اليف ياكل اللحوم ويشرب الحليب والماء</p>
+            </div>
+          </a>
+        </article>
+        <article class="card" onclick="audio3.play();">
+          <a href="#">
+            <figure class="card-thumb">
+              <img src="dog.jpg">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">الكلب</h2>
+              <p class="card-excerpt">الكلب حيوان اليف ياكل اللحوم والعظام</p>
+            </div>
+          </a>
+        </article>
+        <article class="card" onclick="audio4.play();">
+          <a href="#">
+            <figure class="card-thumb">
+              <img src="tiger.png">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">نمر</h2>
+              <p class="card-excerpt">حيوان مفترس يتغذى على اللحوم</p>
+            </div>
+          </a>
+        </article>
+        <article class="card" onclick="audio5.play();">
+          <a href="#">
+            <figure class="card-thumb">
+              <img src="sheep.png">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">خروف</h2>
+              <p class="card-excerpt">حيوان اليف ياكل الاعشاب وينتج الحليب والالبان</p>
+            </div>
+          </a>
+        </article>
+        <article class="card" onclick="audio6.play();">
+          <a href="#">
+            <figure class="card-thumb">
+              <img src="camal.png" alt="react">
+            </figure>
+            <div class="card-content">
+              <h2 class="card-title">جمل</h2>
+              <p class="card-excerpt">حيوان اليف ياكل النباتات ويلقب بسفينة الصحراء</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
